@@ -1,0 +1,31 @@
+name: ravdess
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  # Pins to keep PyCaret 3.3 compatible
+  - numpy=1.26
+  - scipy=1.11.4
+  - scikit-learn=1.4.2
+  - pandas=2.1.*
+  # Core stack
+  - matplotlib
+  - seaborn
+  - joblib
+  # Audio processing
+  - librosa
+  - pysoundfile
+  # PyCaret companions
+  - imbalanced-learn=0.12
+  - plotly
+  - yellowbrick
+  # Notebooks
+  - jupyterlab
+  - ipykernel
+  - notebook
+  - pip
+  - pip:
+    - pycaret==3.3.0
+    # Ensure pip does not lift scikit-learn above the conda pin
+    - scikit-learn==1.4.2
+    - scikit-learn==1.4.2
