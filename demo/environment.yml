@@ -1,0 +1,21 @@
+name: ravdess-audio
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - tqdm
+  - numpy
+  - pandas
+  - librosa
+  - matplotlib
+  - scikit-learn
+  - joblib
+  - pycaret
+  - pydub
+  - pyaudio
+  - pip:
+      - streamlit-audiorecorder
+  - pytorch
+  - torchaudio
+  - torchvision

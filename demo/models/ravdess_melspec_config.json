@@ -1,0 +1,7 @@
+{
+  "SAMPLE_RATE": 22050,
+  "N_MELS": 64,
+  "HOP_LENGTH": 512,
+  "FMIN": 0,
+  "FMAX": 11025
+}

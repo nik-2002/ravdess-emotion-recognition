@@ -53,6 +53,16 @@ ravdess-emotion-recognition/
 └── results/
 ```
 
+## Interactive Demo
+This repo includes a **Streamlit app** (`demo/`) that lets you record your voice and see real-time emotion predictions using the trained models.
+
+### Run the Demo
+```bash
+cd demo
+pip install -r environment.yml
+streamlit run app.py
+```
+
 ## Technologies
 - Python 3.10
 - librosa, soundfile (audio processing)

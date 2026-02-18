@@ -19,3 +19,9 @@ seaborn>=0.12.0
 # Notebooks
 jupyter>=1.0.0
 ipykernel>=6.0.0
+
+# Demo App
+streamlit>=1.24.0
+pydub>=0.25.0
+pyaudio>=0.2.13
+streamlit-audiorecorder>=0.0.4

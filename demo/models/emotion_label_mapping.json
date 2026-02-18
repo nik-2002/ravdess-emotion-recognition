@@ -1,0 +1,22 @@
+{
+  "EMOTION_TO_IDX": {
+    "angry": 0,
+    "calm": 1,
+    "disgust": 2,
+    "fearful": 3,
+    "happy": 4,
+    "neutral": 5,
+    "sad": 6,
+    "surprised": 7
+  },
+  "IDX_TO_EMOTION": {
+    "0": "angry",
+    "1": "calm",
+    "2": "disgust",
+    "3": "fearful",
+    "4": "happy",
+    "5": "neutral",
+    "6": "sad",
+    "7": "surprised"
+  }
+}
