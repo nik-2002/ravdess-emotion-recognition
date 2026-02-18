@@ -56,6 +56,8 @@ ravdess-emotion-recognition/
 ## Interactive Demo
 This repo includes a **Streamlit app** (`demo/`) that lets you record your voice and see real-time emotion predictions using the trained models.
 
+![RAVDESS Emotion Recognition Demo Dashboard](demo/dashboard.png)
+
 ### Run the Demo
 ```bash
 cd demo
